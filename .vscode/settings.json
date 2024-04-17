@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "cmath": "cpp",
+        "bits/stdc++.h":"cpp"
+    },
+    "C_Cpp.errorSquiggles": "Tag Parser"
+}

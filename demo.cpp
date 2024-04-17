@@ -1,21 +1,16 @@
-#include<iostream>
+#include <bits/stdc++.h>
 using namespace std;
+
+
+void func(int arr[]){
+    arr[2] += 10;
+    cout << arr[2];
+}
 int main()
 {
-    int x = 10;
-    cout<<"Hey "<<x<<endl;
-    string str;
-    getline(cin,str);
-    cout<<str;
-    int n;
-    cin>>n;
-    for(int i=0;i<n;i++){
-        char ch = 'A';
-        for(int j=0;j<=i;j++) {
-            cout<<ch;
-            ch=ch+1;
-        }
-        cout<<endl;
-    }
-    return 0;
+    string s = "Hey Pamela";
+    cout << s;
+    int arr[5];
+    cin >> arr[0] >> arr[1] >> arr[2] >> arr[3] >> arr[4];
+    func(arr);
 }
